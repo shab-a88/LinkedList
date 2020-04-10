@@ -49,6 +49,7 @@ namespace LinkedList
             PrintList(one);
 
         }
+        //This is a single linked list
 
         private static void PrintList(Node node)
         {
@@ -58,5 +59,7 @@ namespace LinkedList
                 node = node.Next;
             }
         }
+
+        //Nothing has changed
     }
 }
